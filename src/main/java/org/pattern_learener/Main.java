@@ -1,4 +1,4 @@
-package org.patternLearener;
+package org.pattern_learener;
 
 public class Main {
     public static void main(String[] args) {
