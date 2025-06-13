@@ -8,28 +8,28 @@ public interface Button {
 
 }
 
-class HtmlButton implements Button {
+class MacButton implements Button {
 
     @Override
     public void render() {
-        System.out.println("Rendering HtmlButton");
+        System.out.println("Rendering MacButton");
     }
 
     @Override
     public void onClick() {
-        System.out.println("Click HtmlButton");
+        System.out.println("Click MacButton");
     }
 }
 
-class WindowsButton implements Button {
+class WinButton implements Button {
 
     @Override
     public void render() {
-        System.out.println("Rendering WindowsButton");
+        System.out.println("Rendering WinButton");
     }
 
     @Override
     public void onClick() {
-        System.out.println("Click WindowsButton");
+        System.out.println("Click WinButton");
     }
 }

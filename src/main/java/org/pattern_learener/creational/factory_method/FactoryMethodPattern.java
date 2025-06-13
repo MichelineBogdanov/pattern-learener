@@ -18,20 +18,20 @@ public class FactoryMethodPattern {
     public static void main(String[] args) {
         FactoryMethodPattern example = new FactoryMethodPattern();
 
-        Dialog webDialog = example.initDialog("web");
-        webDialog.render();
+        Dialog macDialog = example.initDialog("mac");
+        macDialog.render();
 
-        Dialog windowsDialog = example.initDialog("windows");
+        Dialog windowsDialog = example.initDialog("win");
         windowsDialog.render();
     }
 
     private Dialog initDialog(String platformName) {
-        if ("windows".equals(platformName)) {
-            return new WindowsDialog();
-        } else if ("web".equals(platformName)) {
-            return new WebDialog();
+        if ("win".equals(platformName)) {
+            return new WinDialog();
+        } else if ("mac".equals(platformName)) {
+            return new MacDialog();
         }
-        return new WebDialog();
+        return new MacDialog();
     }
 
 }

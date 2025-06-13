@@ -28,20 +28,20 @@ public abstract class Dialog {
 /**
  * Конкретные фабрики переопределяют фабричный метод и возвращают из него собственные продукты.
  */
-class WebDialog extends Dialog {
+class MacDialog extends Dialog {
 
     @Override
     protected Button createButton() {
-        return new HtmlButton();
+        return new MacButton();
     }
 
 }
 
-class WindowsDialog extends Dialog {
+class WinDialog extends Dialog {
 
     @Override
     protected Button createButton() {
-        return new WindowsButton();
+        return new WinButton();
     }
 
 }
