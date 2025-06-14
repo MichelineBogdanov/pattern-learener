@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Factory method pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/OSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/RadioButton.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Abstract factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/Cms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/EnterpriseWebsiteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/TestCanonicBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/VisitCardWebsiteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/Website.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/canonic/WebsiteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/other/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/other/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/other/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/other/TestOtherBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/AbstractFactoryPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/AbstractFactoryPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/factory_method/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/factory_method/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/factory_method/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/factory_method/Dialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/factory_method/FactoryMethodPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/factory_method/FactoryMethodPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/OSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/abstract_factory/OSFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/BuilderPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/builder/BuilderPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,13 +59,39 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/qqMik/IdeaProjects/pattern-learener&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AbstractFactoryPattern">
+  <component name="RunManager" selected="Application.TestCanonicBuilder">
     <configuration name="AbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.creational.abstract_factory.AbstractFactoryPattern" />
       <module name="pattern-learener" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.pattern_learener.creational.abstract_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCanonicBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.creational.builder.canonic.TestCanonicBuilder" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.creational.builder.canonic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOtherBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.creational.builder.other.TestOtherBuilder" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.creational.builder.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCanonicBuilder" />
+        <item itemvalue="Application.TestOtherBuilder" />
         <item itemvalue="Application.AbstractFactoryPattern" />
         <item itemvalue="Application.org.pattern_learener.creational.factory_method.FactoryMethodPattern" />
       </list>
@@ -99,7 +132,8 @@
       <workItem from="1663315445652" duration="1581000" />
       <workItem from="1665312085530" duration="224000" />
       <workItem from="1749647908135" duration="5434000" />
-      <workItem from="1749805719678" duration="5006000" />
+      <workItem from="1749805719678" duration="5858000" />
+      <workItem from="1749897563294" duration="3810000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -115,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749815227161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Abstract factory pattern">
+      <created>1749818996902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749818996902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Make template classes for all patterns" />
     <MESSAGE value="Factory method pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory method pattern" />
+    <MESSAGE value="Abstract factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract factory pattern" />
   </component>
 </project>

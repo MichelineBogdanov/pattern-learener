@@ -3,20 +3,6 @@ package org.pattern_learener.creational.abstract_factory;
 
 public abstract class OSFactory {
 
-    public void render() {
-        Button button = createButton();
-        button.render();
-        button.onClick();
-
-        CheckBox checkBox = createCheckBox();
-        checkBox.render();
-        checkBox.onClick();
-
-        RadioButton radioButton = createRadioButton();
-        radioButton.render();
-        radioButton.onClick();
-    }
-
     protected abstract Button createButton();
 
     protected abstract CheckBox createCheckBox();
