@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Builder pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/prototype/Copyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/prototype/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/prototype/ProjectFactory.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Prototype pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/prototype/PrototypePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/prototype/PrototypePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/singleton/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/singleton/SingletonPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,7 @@
       <workItem from="1665312085530" duration="224000" />
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
-      <workItem from="1749897563294" duration="5504000" />
+      <workItem from="1749897563294" duration="6664000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749902754824</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Prototype pattern">
+      <created>1749905013301</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749905013301</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +196,7 @@
     <MESSAGE value="Factory method pattern" />
     <MESSAGE value="Abstract factory pattern" />
     <MESSAGE value="Builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern" />
+    <MESSAGE value="Prototype pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype pattern" />
   </component>
 </project>
