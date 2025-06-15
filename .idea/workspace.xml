@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Singleton pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/RoundHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/RoundPeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/SquarePeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/SquarePegAdapter.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Adapter pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/class_adapter/AdapterJavaToDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/class_adapter/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/class_adapter/JavaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/AdvancedRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/BasicRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/singleton/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/creational/singleton/SingletonPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/AdapterPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/AdapterPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/RoundHole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/composit_adapter/RoundHole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/RoundPeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/composit_adapter/RoundPeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/SquarePeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/composit_adapter/SquarePeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/SquarePegAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/adapter/composit_adapter/SquarePegAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/BridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/BridgePattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +62,26 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/qqMik/IdeaProjects/pattern-learener&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AdapterPattern">
+  <component name="RunManager" selected="Application.BridgePattern">
     <configuration name="AdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.adapter.AdapterPattern" />
       <module name="pattern-learener" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.pattern_learener.structural.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.bridge.BridgePattern" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.structural.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOtherBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.creational.builder.other.TestOtherBuilder" />
-      <module name="pattern-learener" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pattern_learener.creational.builder.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdapterPattern" />
+        <item itemvalue="Application.BridgePattern" />
+        <item itemvalue="Application.org.pattern_learener.structural.adapter.composit_adapter.AdapterPattern" />
         <item itemvalue="Application.SingletonPattern" />
         <item itemvalue="Application.PrototypePattern" />
         <item itemvalue="Application.TestCanonicBuilder" />
-        <item itemvalue="Application.TestOtherBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +150,7 @@
       <workItem from="1665312085530" duration="224000" />
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
-      <workItem from="1749897563294" duration="9529000" />
+      <workItem from="1749897563294" duration="13943000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -184,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749906218367</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adapter pattern">
+      <created>1749912921661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749912921661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +225,7 @@
     <MESSAGE value="Builder pattern" />
     <MESSAGE value="Prototype pattern" />
     <MESSAGE value="Singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton pattern" />
+    <MESSAGE value="Adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter pattern" />
   </component>
 </project>

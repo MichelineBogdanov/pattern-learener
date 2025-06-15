@@ -1,4 +1,4 @@
-package org.pattern_learener.structural.adapter;
+package org.pattern_learener.structural.adapter.composit_adapter;
 
 public class RoundHole {
 

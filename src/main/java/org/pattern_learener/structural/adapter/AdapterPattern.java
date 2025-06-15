@@ -1,5 +1,12 @@
 package org.pattern_learener.structural.adapter;
 
+import org.pattern_learener.structural.adapter.class_adapter.AdapterJavaToDataBase;
+import org.pattern_learener.structural.adapter.class_adapter.DataBase;
+import org.pattern_learener.structural.adapter.composit_adapter.RoundHole;
+import org.pattern_learener.structural.adapter.composit_adapter.RoundPeg;
+import org.pattern_learener.structural.adapter.composit_adapter.SquarePeg;
+import org.pattern_learener.structural.adapter.composit_adapter.SquarePegAdapter;
+
 /**
  * Суть паттерна - это структурный паттерн проектирования, который позволяет объектам с несовместимыми интерфейсами работать вместе.<p>
  * Применимость:<p>
@@ -12,6 +19,7 @@ package org.pattern_learener.structural.adapter;
 public class AdapterPattern {
 
     public static void main(String[] args) {
+        // ============== композиция ==============
         // Круглое к круглому — всё работает.
         RoundHole hole = new RoundHole(5);
         RoundPeg rpeg = new RoundPeg(5);
@@ -32,6 +40,13 @@ public class AdapterPattern {
         if (!hole.fits(largeSqPegAdapter)) {
             System.out.println("Square peg w20 does not fit into round hole r5.");
         }
+
+        // ============== наследование ==============
+        DataBase db = new AdapterJavaToDataBase();
+        db.insert();
+        db.update();
+        db.select();
+        db.delete();
     }
 
 }
