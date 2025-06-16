@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Composite pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/BasicStringDealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/EncodedStringDealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/StringDealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/StringDealerFileConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/UpperCaseStringDealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/composite/test.txt" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Decorator pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/AudioMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/BitrateReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/MPEG4CompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/OggCompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/VideoConversionFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/VideoFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/BasicStringDealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/BasicStringDealer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/DecoratorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/DecoratorPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/StringDealerFileConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/decorator/StringDealerFileConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/FacadePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/FacadePattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/qqMik/IdeaProjects/pattern-learener&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DecoratorPattern">
+  <component name="RunManager" selected="Application.FacadePattern">
     <configuration name="AdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.adapter.AdapterPattern" />
       <module name="pattern-learener" />
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.creational.singleton.SingletonPattern" />
+    <configuration name="FacadePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.facade.FacadePattern" />
       <module name="pattern-learener" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pattern_learener.creational.singleton.*" />
+          <option name="PATTERN" value="org.pattern_learener.structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FacadePattern" />
         <item itemvalue="Application.DecoratorPattern" />
         <item itemvalue="Application.org.pattern_learener.structural.composite.CompositePattern" />
         <item itemvalue="Application.BridgePattern" />
         <item itemvalue="Application.org.pattern_learener.structural.adapter.composit_adapter.AdapterPattern" />
-        <item itemvalue="Application.SingletonPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +146,7 @@
       <workItem from="1665312085530" duration="224000" />
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
-      <workItem from="1749897563294" duration="23349000" />
+      <workItem from="1749897563294" duration="27008000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -206,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750003644962</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Decorator pattern">
+      <created>1750010743882</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750010743882</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +245,18 @@
     <MESSAGE value="Adapter pattern" />
     <MESSAGE value="Bridge pattern" />
     <MESSAGE value="Composite pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composite pattern" />
+    <MESSAGE value="Decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator pattern" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/facade/FacadePattern.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

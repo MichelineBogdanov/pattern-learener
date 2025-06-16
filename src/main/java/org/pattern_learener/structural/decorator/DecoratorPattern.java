@@ -27,12 +27,14 @@ package org.pattern_learener.structural.decorator;
 public class DecoratorPattern {
 
     public static void main(String[] args) {
-        BasicStringDealer allDealer = new UpperCaseStringDealer(new EncodedStringDealer(new BasicStringDealer(new StringDealerFileConsole())));
+        StringDealer allDealer = new UpperCaseStringDealer(new EncodedStringDealer(new StringDealerFileConsole()));
         allDealer.writeStringToConsole("Hello!!! How are y???");
 
-        BasicStringDealer upperDealer = new UpperCaseStringDealer(new BasicStringDealer(new StringDealerFileConsole()));
+        StringDealer upperDealer = new UpperCaseStringDealer(new StringDealerFileConsole());
         String fromResources = upperDealer.readFromResources();
         System.out.println(fromResources);
+
+        //SEVMTE8hISEgSE9XIEFSRSBZPz8/ -> HELLO!!! HOW ARE Y???
     }
 
 }

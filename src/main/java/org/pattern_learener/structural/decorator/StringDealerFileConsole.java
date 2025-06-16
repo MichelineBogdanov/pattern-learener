@@ -7,6 +7,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/**
+ * Определяет базовое поведение. Этот "компонент" будут потом оборачивать декораторы.
+ */
 public class StringDealerFileConsole implements StringDealer {
 
     @Override
