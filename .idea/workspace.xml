@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Facade pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/Forest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/TreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/TreeType.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Flyweight pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/ThirdPartyYouTubeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/ThirdPartyYouTubeLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/YouTubeCacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/YouTubeDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/FlyweightPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/FlyweightPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/ProxyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/proxy/ProxyPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +52,7 @@
     "last_opened_file_path": "C:/Users/qqMik/IdeaProjects/KonveyLife"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FlyweightPattern">
-    <configuration name="BridgePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.bridge.BridgePattern" />
-      <module name="pattern-learener" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pattern_learener.structural.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProxyPattern">
     <configuration name="CompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.composite.CompositePattern" />
       <module name="pattern-learener" />
@@ -117,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.proxy.ProxyPattern" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.structural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyPattern" />
         <item itemvalue="Application.FlyweightPattern" />
         <item itemvalue="Application.FacadePattern" />
         <item itemvalue="Application.DecoratorPattern" />
         <item itemvalue="Application.org.pattern_learener.structural.composite.CompositePattern" />
-        <item itemvalue="Application.BridgePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +140,7 @@
       <workItem from="1665312085530" duration="224000" />
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
-      <workItem from="1749897563294" duration="31505000" />
+      <workItem from="1749897563294" duration="32835000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750064286374</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Flyweight pattern">
+      <created>1750089541493</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750089541493</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="Composite pattern" />
     <MESSAGE value="Decorator pattern" />
     <MESSAGE value="Facade pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facade pattern" />
+    <MESSAGE value="Flyweight pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
