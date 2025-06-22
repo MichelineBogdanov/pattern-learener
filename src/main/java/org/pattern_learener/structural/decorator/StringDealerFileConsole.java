@@ -21,7 +21,7 @@ public class StringDealerFileConsole implements StringDealer {
     public String readFromResources() {
         try {
             String filename = "test.txt";
-            URI uri = getClass().getResource(String.format("/composite/%s", filename)).toURI();
+            URI uri = getClass().getResource(String.format("/decorator/%s", filename)).toURI();
             return Files.readString(Paths.get(uri), StandardCharsets.UTF_8);
         } catch (IOException | URISyntaxException e) {
             throw new RuntimeException(e);
