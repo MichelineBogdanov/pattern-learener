@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Command pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/Facebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/FacebookIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/LinkedIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/LinkedInIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/ProfileIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/SocialNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/SocialSpammer.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Mediator pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/AddButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/DeleteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/SaveButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/mediator/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/mediator/Note.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/IteratorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/iterator/IteratorPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/MediatorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/MediatorPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.pattern_learener.behavioral.mediator" />
       <recent name="org.pattern_learener.behavioral.iterator" />
       <recent name="org.pattern_learener.behavioral.chain_of_responsibility" />
     </key>
@@ -64,26 +68,13 @@
       <recent name="C:\Users\qqMik\IdeaProjects\pattern-learener\src\main\java\org\pattern_learener\behavioral\chain_of_responsibility" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorPattern">
+  <component name="RunManager" selected="Application.MediatorPattern">
     <configuration name="CommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.command.CommandPattern" />
       <module name="pattern-learener" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.pattern_learener.behavioral.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FacadePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.facade.FacadePattern" />
-      <module name="pattern-learener" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pattern_learener.structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MediatorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.mediator.MediatorPattern" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.behavioral.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.proxy.ProxyPattern" />
       <module name="pattern-learener" />
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorPattern" />
         <item itemvalue="Application.IteratorPattern" />
         <item itemvalue="Application.CommandPattern" />
         <item itemvalue="Application.ProxyPattern" />
         <item itemvalue="Application.FlyweightPattern" />
-        <item itemvalue="Application.FacadePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +157,7 @@
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
       <workItem from="1749897563294" duration="35604000" />
-      <workItem from="1750171538952" duration="10962000" />
+      <workItem from="1750171538952" duration="17177000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -260,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750600502217</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Iterator pattern">
+      <created>1750703863270</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750703863270</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +304,9 @@
     <MESSAGE value="Proxy pattern" />
     <MESSAGE value="Chain of responsibility pattern" />
     <MESSAGE value="Command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command pattern" />
+    <MESSAGE value="Iterator pattern" />
+    <MESSAGE value="Mediator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mediator pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
