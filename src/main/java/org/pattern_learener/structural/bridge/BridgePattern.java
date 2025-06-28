@@ -32,8 +32,8 @@ public class BridgePattern {
         TV tv = new TV();
         Radio radio = new Radio();
 
-        BasicRemote basicRemote = new BasicRemote(radio);
-        AdvancedRemote advancedRemote = new AdvancedRemote(tv);
+        Remote basicRemote = new BasicRemote(radio);
+        Remote advancedRemote = new AdvancedRemote(tv);
 
         basicRemote.power();
         basicRemote.setChannel(3);
