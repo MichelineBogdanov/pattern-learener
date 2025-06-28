@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Observer pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/LockedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/PlayingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/ReadyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/UI.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="State pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/PayByCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/PayByPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/PayStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/StatePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/state/StatePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/BridgePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/bridge/BridgePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/StrategyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/strategy/StrategyPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +62,7 @@
       <recent name="C:\Users\qqMik\IdeaProjects\pattern-learener\src\main\java\org\pattern_learener\behavioral\chain_of_responsibility" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StatePattern">
-    <configuration name="IteratorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.iterator.IteratorPattern" />
-      <module name="pattern-learener" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pattern_learener.behavioral.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrategyPattern">
     <configuration name="MediatorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.mediator.MediatorPattern" />
       <module name="pattern-learener" />
@@ -130,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.strategy.StrategyPattern" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPattern" />
         <item itemvalue="Application.StatePattern" />
         <item itemvalue="Application.ObserverPattern" />
         <item itemvalue="Application.MementoPattern" />
         <item itemvalue="Application.MediatorPattern" />
-        <item itemvalue="Application.IteratorPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,7 @@
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
       <workItem from="1749897563294" duration="35604000" />
-      <workItem from="1750171538952" duration="29447000" />
+      <workItem from="1750171538952" duration="30976000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -288,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1751109729874</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="State pattern">
+      <created>1751115718898</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1751115718898</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +330,8 @@
     <MESSAGE value="Mediator pattern" />
     <MESSAGE value="Memento pattern" />
     <MESSAGE value="Observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern" />
+    <MESSAGE value="State pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="State pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
