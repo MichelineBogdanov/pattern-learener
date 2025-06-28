@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Mediator pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/AddButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/DeleteButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/SaveButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/components/Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/mediator/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/mediator/Note.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Memento pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/MediatorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/mediator/MediatorPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/observer/ObserverPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/observer/ObserverPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +57,13 @@
       <recent name="C:\Users\qqMik\IdeaProjects\pattern-learener\src\main\java\org\pattern_learener\behavioral\chain_of_responsibility" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MediatorPattern">
+  <component name="RunManager" selected="Application.ObserverPattern">
     <configuration name="CommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.command.CommandPattern" />
       <module name="pattern-learener" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.pattern_learener.behavioral.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlyweightPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.flyweight.FlyweightPattern" />
-      <module name="pattern-learener" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pattern_learener.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.structural.proxy.ProxyPattern" />
+    <configuration name="MementoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.memento.MementoPattern" />
       <module name="pattern-learener" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.pattern_learener.structural.proxy.*" />
+          <option name="PATTERN" value="org.pattern_learener.behavioral.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.observer.ObserverPattern" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverPattern" />
+        <item itemvalue="Application.MementoPattern" />
         <item itemvalue="Application.MediatorPattern" />
         <item itemvalue="Application.IteratorPattern" />
         <item itemvalue="Application.CommandPattern" />
-        <item itemvalue="Application.ProxyPattern" />
-        <item itemvalue="Application.FlyweightPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +146,7 @@
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
       <workItem from="1749897563294" duration="35604000" />
-      <workItem from="1750171538952" duration="17177000" />
+      <workItem from="1750171538952" duration="25190000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -271,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750703863270</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Mediator pattern">
+      <created>1750796584786</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750796584786</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Memento pattern">
+      <created>1750883060596</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750883060596</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +309,8 @@
     <MESSAGE value="Command pattern" />
     <MESSAGE value="Iterator pattern" />
     <MESSAGE value="Mediator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mediator pattern" />
+    <MESSAGE value="Memento pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memento pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,6 +329,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/pattern_learener/structural/flyweight/FlyweightPattern.java</url>
           <line>39</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/memento/shapes/BaseShape.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
