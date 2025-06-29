@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/template_method/Facebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/template_method/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/template_method/Twitter.java" afterDir="false" />
+    <list default="true" id="bc2e7dfa-e639-4090-80f6-64f647976446" name="Changes" comment="Template method pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/visitor/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/template_method/TemplateMethodPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/template_method/TemplateMethodPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/visitor/VisitorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/pattern_learener/behavioral/visitor/VisitorPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,20 +58,7 @@
       <recent name="C:\Users\qqMik\IdeaProjects\pattern-learener\src\main\java\org\pattern_learener\behavioral\chain_of_responsibility" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodPattern">
-    <configuration name="MementoPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.memento.MementoPattern" />
-      <module name="pattern-learener" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.pattern_learener.behavioral.memento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VisitorPattern">
     <configuration name="ObserverPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.observer.ObserverPattern" />
       <module name="pattern-learener" />
@@ -126,13 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.pattern_learener.behavioral.visitor.VisitorPattern" />
+      <module name="pattern-learener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.pattern_learener.behavioral.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorPattern" />
         <item itemvalue="Application.TemplateMethodPattern" />
         <item itemvalue="Application.StrategyPattern" />
         <item itemvalue="Application.StatePattern" />
         <item itemvalue="Application.ObserverPattern" />
-        <item itemvalue="Application.MementoPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +147,7 @@
       <workItem from="1749647908135" duration="5434000" />
       <workItem from="1749805719678" duration="5858000" />
       <workItem from="1749897563294" duration="35604000" />
-      <workItem from="1750171538952" duration="32091000" />
+      <workItem from="1750171538952" duration="33057000" />
     </task>
     <task id="LOCAL-00001" summary="Make template classes for all patterns">
       <created>1749648652817</created>
@@ -298,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1751122957711</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Template method pattern">
+      <created>1751124027116</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1751124027116</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +342,8 @@
     <MESSAGE value="Observer pattern" />
     <MESSAGE value="State pattern" />
     <MESSAGE value="Strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy pattern" />
+    <MESSAGE value="Template method pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template method pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
